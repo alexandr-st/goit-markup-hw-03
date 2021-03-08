@@ -14,92 +14,125 @@
 </head>
 <body>
      <!-- Hero-->
-    <header>
-        <a class="reset-link logo" lang="en" href="index.html">Web<span class="logo-header">Studio</span></a>
-        <nav class="navigation">
-            <ul class="reset-list navigation-list">
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="./index.html">Студия</a></li>
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="./portfolio.html">Портфолио</a></li>
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="Контакты">Контакты</a></li>
-            </ul>
-        </nav>
-            <ul class="reset-list">
+    <header class="header">
+        <div class="container">
+            <a class="reset-link logo-up" lang="en" href="index.html">Web<span class="logo-header">Studio</span></a>
+            <nav class="navigation">
+                <ul class="reset-list navigation-list">
+                    <li class="navigation-list-item"><a class="reset-link navigation-link" href="./index.html">Студия</a></li>
+                    <li class="navigation-list-item"><a class="reset-link navigation-link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation-list-item"><a class="reset-link navigation-link" href="Контакты">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="reset-list upper-contact-items">
                 <li><a class="reset-link upper-contact-links mail-us" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="reset-link upper-contact-links" href="tel:380961111111">+38 096 111 11 11</a></li>
             </ul>
+        </div>
     </header>
     <main>
         <!-- Hero-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="modal-button" type="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">
+                    <span>Эффективные решения</span>
+                    <span>для вашего бизнеса</span>
+                    </h1>
+                <button class="modal-button" type="button">Заказать услугу</button>
+            </div>
         </section>
         <section class="worth">
-            <!-- <h2 hidden> Преимущества </h2> -->
-            <ul class="reset-list worth-list">
-                <li>
-                    <h3 class="worth-items">Внимание к деталям</h3>
-                    <p class="worth-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <h3 class="worth-items">Пунктуальность</h3>
-                    <p class="worth-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <h3 class="worth-items">Планирование</h3>
-                    <p class="worth-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <h3 class="worth-items">Современные технологии</h3>
-                    <p class="worth-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="visually-hidden"> Преимущества </h2>
+                <ul class="reset-list worth-list">
+                    <li class="worth-element">
+                        <div class="worth-description-representation">
+                            <h3 class="worth-items">Внимание к деталям</h3>
+                            <p class="worth-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </div>
+                    </li>
+                    <li class="worth-element">
+                        <div class="worth-description-representation">
+                            <h3 class="worth-items">Пунктуальность</h3>
+                            <p class="worth-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </div>
+                    </li>
+                    <li class="worth-element">
+                        <div class="worth-description-representation">
+                            <h3 class="worth-items">Планирование</h3>
+                            <p class="worth-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </div>
+                    </li>
+                    <li class="worth-element">
+                        <div class="worth-description-representation">
+                            <h3 class="worth-items">Современные технологии</h3>
+                            <p class="worth-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </div>  
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- what does we do-->
         <section class="wdwd">
-            <h2 class="wdwd-title">Чем мы занимаемся </h2>
-            <ul class="reset-list wdwd-list">
-                <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img1.jpg" alt="рабочий стол програмиста и процесс написания кода" width="370" height="294"> </li>
-                <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img2.jpg" alt="варианты располодения контента на мобильном устройстве" width="370" height="293"> </li>
-                <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img3.jpg" alt="шестиугольник с цветовым градиентом" width="370" height="294"> </li>
-            </ul>
+            <div class="container">
+                <h2 class="wdwd-title">Чем мы занимаемся </h2>
+                <ul class="reset-list wdwd-list">
+                    <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img1.jpg" alt="рабочий стол програмиста и процесс написания кода" width="370" height="294"> </li>
+                    <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img2.jpg" alt="варианты располодения контента на мобильном устройстве" width="370" height="293"> </li>
+                    <li class="wdwd-item"> <img class="wdwd-item-image" src="./images/img3.jpg" alt="шестиугольник с цветовым градиентом" width="370" height="294"> </li>
+                </ul>
+            </div>
         </section>
         <!-- our team-->
         <section class="team">
-            <h2 class="team-title">Наша команда </h2>
-            <ul class="reset-list team-list">
-                <li class="team-list-item">
-                    <img class="unit" src="./images/Face1.jpg" alt="мужчина дизайнер" width="270" height="260">
-                    <h3 class="unit-name">Игорь Демьяненко</h3>
-                    <p  class="unit-ps">Product Designer</p>
-                </li>
-                <li class="team-list-item">
-                    <img class="unit" src="./images/Face2.jpg" alt="женщтна фронт енд девелопер" width="270" height="260">
-                    <h3 class="unit-name">Ольга Репина</h3>
-                    <p class="unit-ps">Frontend Developer</p>
-                </li>
-                <li class="team-list-item">
-                    <img class="unit" src="./images/Face3.jpg" alt="мужчина маркетолог" width="270" height="260">
-                    <h3 class="unit-name">Николай Тарасов</h3>
-                    <p class="unit-ps">Marketing</p>
-                </li>
-                <li class="team-list-item">
-                    <img class="unit" src="./images/Face4.jpg" alt="мужчина дизайнер" width="270" height="260">
-                    <h3 class="unit-name">Михаил Ермаков</h3>
-                    <p class="unit-ps">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="team-title">Наша команда </h2>
+                <ul class="reset-list team-list">
+                    <li class="team-list-item">
+                        <img class="unit" src="./images/Face1.jpg" alt="мужчина дизайнер" width="270" height="260">
+                        <div class="team-list-item-representation">
+                            <h3 class="unit-name">Игорь Демьяненко</h3>
+                            <p  class="unit-ps">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img class="unit" src="./images/Face2.jpg" alt="женщтна фронт енд девелопер" width="270" height="260">
+                        <div class="team-list-item-representation">
+                            <h3 class="unit-name">Ольга Репина</h3>
+                            <p class="unit-ps">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img class="unit" src="./images/Face3.jpg" alt="мужчина маркетолог" width="270" height="260">
+                        <div class="team-list-item-representation">
+                            <h3 class="unit-name">Николай Тарасов</h3>
+                            <p class="unit-ps">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item">
+                        <img class="unit" src="./images/Face4.jpg" alt="мужчина дизайнер" width="270" height="260">
+                        <div class="team-list-item-representation">
+                            <h3 class="unit-name">Михаил Ермаков</h3>
+                            <p class="unit-ps">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <a class="reset-link logo" lang="en" href="index.html">Web<span class="logo-footer">Studio</span></a>
-        <address class="reset-adress">
-            <ul class="reset-list">
-                <li><a class="reset-link map-link" href="https://goo.gl/maps/1Cf52pTZjELxp6kr8" target="_blank" rel="noopener noreferrer ">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a class="reset-link lower-contact-links"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="reset-link lower-contact-links"  href="tel:380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footter">
+        <div class="container">
+            <div class="logotype">
+            <a class="reset-link logo-low" lang="en" href="index.html">Web<span class="logo-footer">Studio</span></a>
+            </div>
+            <address class="reset-adress">
+                <ul class="reset-list lower-contact-items">
+                    <li class="bottom-addres-item"><a class="reset-link map-link" href="https://goo.gl/maps/1Cf52pTZjELxp6kr8" target="_blank" rel="noopener noreferrer ">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="bottom-addres-item"><a class="reset-link lower-contact-links"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="bottom-addres-item"><a class="reset-link lower-contact-links"  href="tel:380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
     
 </body>

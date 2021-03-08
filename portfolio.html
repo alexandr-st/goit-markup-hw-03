@@ -13,97 +13,127 @@
 </head>
 
 <body>
-    <header>
-        <a class="reset-link logo" lang="en" href="index.html">Web<span class="logo-header">Studio</span></a>
-        <nav class="navigation">
-            <ul class="reset-list navigation-list">
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="./index.html">Студия</a></li>
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="navigation-list-item"><a class="reset-link navigation-link" href="Контакты">Контакты</a></li>
+    <header class="header">
+        <div class="container">
+            <a class="reset-link logo-up" lang="en" href="index.html">Web<span class="logo-header">Studio</span></a>
+            <nav class="navigation">
+                <ul class="reset-list navigation-list">
+                    <li class="navigation-list-item"><a class="reset-link navigation-link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="navigation-list-item"><a class="reset-link navigation-link"
+                            href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation-list-item"><a class="reset-link navigation-link" href="Контакты">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="reset-list upper-contact-items">
+                <li><a class="reset-link upper-contact-links mail-us"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="reset-link upper-contact-links" href="tel:380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="reset-list">
-            <li><a class="reset-link upper-contact-links mail-us" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="reset-link upper-contact-links" href="tel:380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 
     <main>
         <!-- Фильтр продуктов -->
         <section class="product">
-        <h1 hidden class="filter-button"> Filter </h1>
-            <ul class="reset-list filter-list">
-                <li class="filter-list-item"> <button class="prtf-button" type="button">Все</button> </li>
-                <li class="filter-list-item"> <button class="prtf-button" type="button">Приложения</button></li>
-                <li class="filter-list-item"> <button class="prtf-button" type="button">Дизайн</button></li>  
-                <li class="filter-list-item"> <button class="prtf-button" type="button">Маркетинг</button></li>
-                <li class="filter-list-item"> <button class="prtf-button" type="button">Веб-сайты</button></li>
-            </ul>
-        <h2 hidden> Our products </h2>
-            <ul class="reset-list products-list">
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/notebook.jpg" alt="открытый ноутбук" width="370" height="294">
-                    <h2 class="product-name">Технокряк</h2>
-                    <p class="product-type">Веб-сайты</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-iamge" src="./images/images_portfolio/backetbool.jpg" alt="два мужчины играют в баскетбол" width="370" height="294">
-                    <h2 class="product-name">Постер <span lang="en">New Orlean us Golden Star</span></h2>
-                    <p class="product-type">Дизайн</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/seafood_logo.jpg" alt="название ресторана SeaFood на фоне серой рыбы" width="370" height="294">
-                    <h2 class="product-name">Ресторан <span lang="en">SeaFood</span></h2>
-                    <p class="product-type">Проложение</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/headphones.jpg" alt="черные наушники" width="370" height="294">
-                    <h2 class="product-name">Проект <span lang="en">Prime</span></h2>
-                    <p class="product-type">Маркетинг</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/boxes.jpg" alt="белая и коричневая коробки" width="370" height="294">
-                    <h2 class="product-name">Проект <span lang="en">Boxes</span></h2>
-                    <p class="product-type">Приложение</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-imge" src="./images/images_portfolio/black_screen.jpg" alt="черный екран ноутбука" width="370" height="294">
-                    <h2 class="product-name" lang="en">Inspiration has no Borders</h2>
-                    <p class="product-type">Веб-сайт</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/booklet.jpg" alt="открытый буклет" width="370" height="294">
-                    <h2 class="product-name">Издание <span lang="en">Limited Edition</span></h2>
-                    <p class="product-type">Дизайн</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/letters.jpg" alt="латинские заглавные буквы на белой бумаге" width="370" height="294">
-                    <h2 class="product-name">Проект <span lang="en">LAB</span></h2>
-                    <p class="product-type">Маркетинг</p>
-                </li>
-                <li class="product-list-item">
-                    <img class="product-image" src="./images/images_portfolio/Desktop.jpg" alt="открыт рабочий стол ноутбука" width="370" height="294">
-                    <h2 class="product-name" lang="en">Growing Business</h2>
-                    <p class="product-type">Приложение</p>
-                </li>
-
-            </ul>
+            <div class="container">
+                <h1 class="filter-button visually-hidden">Filters list</h1>
+                    <ul class="reset-list filter-list">
+                        <li class="filter-list-item"> <button class="prtf-button" type="button">Все</button></li>
+                        <li class="filter-list-item"> <button class="prtf-button" type="button">Приложения</button></li>
+                        <li class="filter-list-item"> <button class="prtf-button" type="button">Дизайн</button></li>  
+                        <li class="filter-list-item"> <button class="prtf-button" type="button">Маркетинг</button></li>
+                        <li class="filter-list-item"> <button class="prtf-button" type="button">Веб-сайты</button></li>
+                    </ul>
+                <div class="products">
+                    <h2 class="visually-hidden">Our products</h2>
+                    <ul class="reset-list products-list">
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/notebook.jpg" alt="открытый ноутбук" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Технокряк</h2>
+                                <p class="product-type">Веб-сайты</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-iamge" src="./images/images_portfolio/backetbool.jpg" alt="два мужчины играют в баскетбол" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Постер <span lang="en">New Orlean us Golden Star</span></h2>
+                                <p class="product-type">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/seafood_logo.jpg" alt="название ресторана SeaFood на фоне серой рыбы" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Ресторан <span lang="en">SeaFood</span></h2>
+                                <p class="product-type">Проложение</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/headphones.jpg" alt="черные наушники" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Проект <span lang="en">Prime</span></h2>
+                                <p class="product-type">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/boxes.jpg" alt="белая и коричневая коробки" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Проект <span lang="en">Boxes</span></h2>
+                                <p class="product-type">Приложение</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-imge" src="./images/images_portfolio/black_screen.jpg" alt="черный екран ноутбука" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name" lang="en">Inspiration has no Borders</h2>
+                                <p class="product-type">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/booklet.jpg" alt="открытый буклет" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Издание <span lang="en">Limited Edition</span></h2>
+                                <p class="product-type">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/letters.jpg" alt="латинские заглавные буквы на белой бумаге" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name">Проект <span lang="en">LAB</span></h2>
+                                <p class="product-type">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="product-list-item">
+                            <img class="product-image" src="./images/images_portfolio/Desktop.jpg" alt="открыт рабочий стол ноутбука" width="370" height="294">
+                            <div class="product-image-represantation">
+                                <h2 class="product-name" lang="en">Growing Business</h2>
+                                <p class="product-type">Приложение</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-
     </main>
 
-    <footer>
-        <a class="reset-link logo" lang="en" href="index.html">Web<span class="logo-footer">Studio</span></a>
-        <address class="reset-adress">
-            <ul class="reset-list">
-                <li><a class="reset-link map-link" href="https://goo.gl/maps/1Cf52pTZjELxp6kr8" target="_blank"
-                        rel="noopener noreferrer ">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a class="reset-link lower-contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="reset-link lower-contact-links" href="tel:380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
-
+    <footer class="footter">
+        <div class="container">
+            <div class="logotype">
+                <a class="reset-link logo-low" lang="en" href="index.html">Web<span class="logo-footer">Studio</span></a>
+            </div>
+            <address class="reset-adress">
+                <ul class="reset-list lower-contact-items">
+                    <li class="bottom-addres-item"><a class="reset-link map-link"
+                            href="https://goo.gl/maps/1Cf52pTZjELxp6kr8" target="_blank" rel="noopener noreferrer ">г. Киев,
+                            пр-т Леси Украинки, 26</a></li>
+                    <li class="bottom-addres-item"><a class="reset-link lower-contact-links"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="bottom-addres-item"><a class="reset-link lower-contact-links" href="tel:380961111111">+38 096
+                            111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
     
 </body>
