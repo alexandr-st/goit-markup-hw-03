@@ -73,7 +73,10 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
-
+.navigation {
+    display: flex;
+    align-items: center;
+}
 .navigation-link {
     font-weight: 500;
     font-size: 14px;
@@ -81,6 +84,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
+
 
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
@@ -98,35 +102,41 @@ img {
 .navigation-link:focus {
     color: var(--accent-color);
 }
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
 .upper-contact-links {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--maim-color);
-    
 }
 
-.header {
+.header-main {
     display: flex;
     padding-top: 25px;
-    padding-bottom: 25px;
-    
-}
-
-.navigation-list {
-    display: flex;
+    padding-bottom: 25px;   
     align-items: center;
 }
 
-.upper-contact-items {
+.header-prtf {
     display: flex;
-}  
-
-.header .container {
-  align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;;
 }
 
+
+.upper-contact-items {
+    display: flex;
+    align-items: center;
+}  
+
+  
 .container {
     display: flex;
     width: 1200px;
@@ -148,8 +158,12 @@ img {
 }
 
 .hero-title {
-    text-align: center;
     margin-bottom: 30px;
+    margin-right: 350px;
+    margin-left: 240px;
+    width: 700px;
+    text-align: center;
+   
    }
 
 /*---------- HERO -----------*/
@@ -369,7 +383,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--accent-color);
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -419,6 +432,7 @@ img {
     border-radius: 4px;
     padding: 6px 22px;
     min-width: 73px;
+    border: none;
     }  
 
 .prtf-button:hover,
@@ -432,9 +446,13 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }   
 
-.products {
-    padding-top: 25px;
+
+.product{
+    padding-top: 94px;
     padding-bottom: 94px;
+}
+.products {
+    padding-top: 50px;
     display: flex;
 }
 
@@ -455,4 +473,5 @@ img {
    padding: 20px 24px;
    background: #FFFFFF;
    border: 1px solid #EEEEEE; 
+   border-top: none;
 }
